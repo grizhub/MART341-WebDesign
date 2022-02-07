@@ -1,0 +1,9 @@
+What is the relationship between an IP address and the DNS?
+The relationship between them would be like a language and a translator.]
+The role of DNS is to translate IP addresses into domain names which is easy for us to understand.
+
+What is a cookie?
+A cookie is a mechanism for temporarily storing information about a user who visits a homepage, or its data. ID, password, email address, number of visits, and others are saved as user information. This saves you the trouble of identifying the user and entering information when you return.
+
+What are the three essential parts of a URL?
+Protocol, domain, and paths
