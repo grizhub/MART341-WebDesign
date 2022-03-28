@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact Form">
+    <meta name="author" content="Kosuke Miyazaki">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+
+<style>
+    body {font-family: 'Times New Roman', Times, serif;}
+    .content-left {width: 30%; text-align: right;}
+    .content-right {width: 70%; text-align: center;}
+    .main {display: flex; padding: 30px}
+    .required {background-color: rgb(255, 167, 167); padding: 2px 5px 0;
+        margin-left: 5px; border-radius: 2px; font-size: 12px; text-align: right;}
+    .optional{background-color: rgb(112, 186, 209); padding: 2px 5px 0;
+        margin-left: 5px; border-radius: 2px; font-size: 12px;}
+    input {width: 70%;}
+    textarea {width: 70%;}
+    select {width: 70%;}
+    .button-submit {text-align: center}
+
+    nav {
+                color: #fff;
+                padding: 3%;
+                text-align: right;
+            }
+
+        a{
+            color: #000;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color:rgb(93, 167, 209);
+            text-decoration: underline;
+        }
+
+</style>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">
+            <img src="images/logo-image.jpg" alt="logo" width="75" style="float: left;">
+        </a>
+
+
+        <ul>
+            <li style="display: inline;">
+                <a href="about.html">About</a>
+            </li>
+            &vert;
+            <li style="display: inline;">
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h1>Contact Form</h1>
+
+    <form method="POST" name="contact-form" action="index.html">    
+
+    <!-- Name -->   
+    <div class="main">
+    <div class="content-left">
+    Name<span class="required">required</span>
+    </div>
+    <div class="content-right">
+    <input type="text" id="name" placeholder="FirstName LastName">
+    </div>
+    </div>
+
+    <!-- e-mail address -->
+    <div class="main">
+    <div class="content-left">
+    E-mail Address<span class="required">required</span>
+    </div>
+    <div class="content-right">
+    <input type="text" id="e-mail" placeholder="example@example.com">
+    </div>
+    </div>
+
+    <!-- Phone Number -->
+    <div class="main">
+    <div class="content-left">
+    Phone Number<span class="optional">optional</span>
+    </div>
+    <div class="content-right">
+    <input type="text" id="phone" placeholder="xxx-xxx-xxxx">
+    </div>
+    </div>
+
+    <!-- Inquiry Content -->
+    <div class="main">
+    <div class="content-left">
+    Inquiry Content<span class="required">required</span>
+    </div>
+    <div class="content-right">
+    <select name="your_business">
+    <option value="DR">Purchase of Goods</option>
+    <option value="SR">Return of Goods</option>
+    <option value="RV">Review</option>
+    <option value="OTHERES">Others</option>
+    </select>
+    </div>
+    </div>
+
+    <!-- Main Text -->
+    <div class="main">
+    <div class="content-left">
+    Main Text<span class="required">required</span>
+    </div>
+    <div class="content-right">
+        <textarea name="comments" id="test-textarea" placeholder="Type your message here"></textarea>
+    </div>
+    </div>
+    </div>
+
+    <!-- Submit -->
+    <div class="button-submit">
+    <button>submit</button>
+    </div>
+
+</form>
+</body>
+
+</html>
