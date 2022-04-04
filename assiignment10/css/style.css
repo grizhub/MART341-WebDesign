@@ -1,0 +1,129 @@
+html, body{
+    overflow: hidden
+}
+
+body{
+    background-color: #404659;
+}
+
+.main {
+    display: flex;
+    line-height: 0;
+}
+   
+.content-menu {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.content-sign {
+    width: 30%; 
+    text-align: right;
+}
+
+
+
+nav {
+    color: #fff;
+    text-align: left;
+}
+
+ul{
+    position: relative;
+    top: 15px;
+}
+
+#logo{
+    position: relative;
+    bottom: 4px;
+}
+
+.sign-up{
+    position: relative;
+    top: 5px;
+    background-image: linear-gradient(90deg, rgba(194, 57, 248, 1), rgba(48, 53, 97, 1));
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.sign-up-text{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.button{
+    position: relative;
+    top: 50px;
+    background-image: linear-gradient(90deg, rgba(194, 57, 248, 1), rgba(48, 53, 97, 1));
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.button-icon {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.learn-more {
+    position: absolute;
+    left: 70px;
+    white-space: nowrap;
+}
+
+.text {
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+.image {
+    text-align: right;
+    position: relative;
+    bottom: 20px;
+}
+
+a {
+    color: #777C8D;
+    text-decoration: none;
+}
+
+
+a:hover {
+color:rgb(93, 167, 209);
+text-decoration: underline;
+}
+
+ul {
+    position: relative;
+    left: 10px;
+}
+
+li {
+    padding-right: 10px;
+}
+
+
+
+.description {
+    color: #777C8D;
+}
+
+
+
+h1 {
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
