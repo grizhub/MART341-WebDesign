@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'RubikMoonrocks';
+    src: url('../fonts/RubikMoonrocks-Regular.ttf') 
+    format('truetype');
+    font-style: normal;
+ }
+
+ @font-face {
+    font-family: 'BeauRivage';
+    src: url('../fonts/BeauRivage-Regular.ttf') 
+    format('truetype');
+    font-style: normal;
+ }
+
+
+ @font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.ttf')
+    format('truetype');
+    font-style: normal;
+ }
+
+ @font-face {
+    font-family: 'Babyloncia';
+    src: url('../fonts/Babylonica-Regular.ttf')
+    format('truetype');
+    font-style: normal;
+ }
+
+ @font-face {
+    font-family: 'GrapeNuts';
+    src: url('../fonts/GrapeNuts-Regular.ttf')
+    format('truetype');
+    font-style: normal;
+ }
+
+ @font-face {
+    font-family: 'Lobster';
+    src: url('../fonts/Lobster-Regular.ttf')
+    format('truetype');
+    font-style: normal;
+ }
+
+ @font-face {
+    font-family: 'PermanentMarker';
+    src: url('../fonts/PermanentMarker-Regular.ttf')
+    format('truetype');
+    font-style: normal;
+ }
+
+ @font-face {
+    font-family: 'RubikGlitch';
+    src: url('../fonts/RubikGlitch-Regular.ttf')
+    format('truetype');
+    font-style: normal;
+ }
+
+ @font-face {
+    font-family: 'RubikPuddles';
+    src: url('../fonts/RubikPuddles-Regular.ttf')
+    format('truetype');
+    font-style: normal;
+ }
+
+ @font-face {
+    font-family: 'SecularOne';
+    src: url('../fonts/SecularOne-Regular.ttf')
+    format('truetype');
+    font-style: normal;
+ }
+
+ @font-face {
+    font-family: 'Handlle';
+    src: url('../fonts/Handlee-Regular.ttf')
+    format('truetype');
+    font-style: normal;
+ }
+
+ @font-face {
+    font-family: 'HomemadeApple';
+    src: url('../fonts/HomemadeApple-Regular.ttf')
+    format('truetype');
+    font-style: normal;
+ }
+
+ @font-face {
+    font-family: 'Monoton';
+    src: url('../fonts/Monoton-Regular.ttf')
+    format('truetype');
+    font-style: normal;
+ }
+
+ @font-face {
+    font-family: 'Parisienne';
+    src: url('../fonts/Parisienne-Regular.ttf')
+    format('truetype');
+    font-style: normal;
+ }
+
+ @font-face {
+    font-family: 'RockSalt';
+    src: url('../fonts/RockSalt-Regular.ttf')
+    format('truetype');
+    font-style: normal;
+ }
