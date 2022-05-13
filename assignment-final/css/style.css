@@ -1,0 +1,184 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1300px;
+    background: url(../img/hero_image.png);
+    background-size: cover;
+    background-attachment: fixed;  
+    background-position: center center;
+}
+
+li, a, .btn_contact {
+    font-family: "Montserrat";
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.list_nav_header {
+    list-style: none;
+}
+
+.list_nav_header li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.list_nav_header li a {
+    transition: all 0.3s ease 0s;
+}
+
+.list_nav_header li a:hover { 
+    color: #0088a9;
+}
+
+
+.btn_contact {
+    box-shadow: rgba(238, 231, 231, 0.24) 0px 3px 8px;
+    color: #030303;
+    display: flex;
+    align-items: center;
+    height: 36px;
+    padding: 0 24px 0 48px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.btn_contact::before {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../img/ico_mail.svg) no-repeat center;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0, -50%);
+}
+
+.btn_contact:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.container {
+    position: relative;
+    height: 300px;
+    max-width: 100%;
+}
+
+.container .block_title {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    color: #edf0f1;
+}
+
+.container .block_title_first {
+    display: block;
+    margin: 1rem auto;
+    line-height: 0.9;
+    font-size: 6rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.container .block_title_second {
+    display: block;
+    line-height: 0.9;
+    font-size: 3.5rem;
+    font-weight: 400;
+    text-align: right;
+    margin: 1rem auto;
+}
+
+.container .btn_explore {
+    float: right;
+    top: 50px;
+}
+
+.btn_explore {
+    box-shadow: rgba(238, 231, 231, 0.24) 0px 3px 8px;
+    color: #030303;
+    display: flex;
+    align-items: center;
+    height: 36px;
+    padding: 0 48px 0 24px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+
+.btn_explore:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.btn_explore::after {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../img/ico_arrow.svg) no-repeat center;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(0, -50%);
+}
+
+
+
+
+#study {
+    margin-left: 30px;
+}
+
+.submit {
+    box-shadow: rgba(238, 231, 231, 0.24) 0px 3px 8px;
+    color: #030303;
+    display: flex;
+    align-items: center;
+    height: 36px;
+    padding: 0 24px 0 24px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background: url(../img/cover_min.png);
+        background-size: cover;
+        background-attachment: fixed;  
+        background-position: center center;
+    }
+}
